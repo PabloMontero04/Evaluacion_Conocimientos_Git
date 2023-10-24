@@ -1,0 +1,26 @@
+# Ignorar archivos y directorios generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar directorios y archivos de dependencias generadas por paquetes de administración de dependencias, como npm y Yarn
+/node_modules/
+/bower_components/
+
+# Ignorar archivos de construcción y distribución generados por herramientas de desarrollo
+/build/
+/dist/
+/out/
+
+# Ignorar archivos generados por el editor de código
+.vscode/
+.idea/
+
+# Ignorar archivos de configuración local, como archivos .env
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de registro y caché
+*.log
+*.log.*
+.cache/
